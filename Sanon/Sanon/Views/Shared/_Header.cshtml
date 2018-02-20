@@ -1,0 +1,80 @@
+﻿	<!-- banner -->
+<!-- header -->
+<div class="">
+    <div class="header">
+        <div class="container">
+            <div class="header-top">
+                <!-- header-top -->
+                <div class="agile-hdleft nav navbar-nav navbar-left">
+                    <ul>
+                        <li><a href="mailto:m.bilal@leemutech.com"><i class="fa fa-envelope-o"></i>  m.bilal@leemutech.com</a></li>
+                        <li><i class="fa fa-phone"></i> +92 332 9687357 </li>
+                    </ul>
+                </div>
+                <div class="agile-hdmdl nav navbar-nav">
+                    <form action="#" method="post">
+                        <input type="search" name="Search" placeholder="Enter your search term..." id="search" required="">
+                        <button type="submit" class="btn btn-default" aria-label="Left Align">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                    </form>
+                </div>
+                <div class="agileits-hdright nav navbar-nav navbar-right">
+                    <div class="social-icon">
+                        <a href="#" class="social-button twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="social-button google"><i class="fa fa-google-plus"></i></a>
+                        <a href="#" class="social-button dribbble"><i class="fa fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+            <div class="row">
+                <div class="agileits-logo col-lg-4 col-md-12 col-sm-12 col-xs-9">
+                    <!-- header-two -->
+                    <h1 class="h11" style="line-height:unset;"><a href="index.html"><span>SANON <span><lable style="font-size:small">ENTERPRISE</lable></span></span></a></h1>
+                </div>
+                <div class="header-nav">
+                    <!-- header-three -->
+                    <nav class="navbar navbar-default">
+                        <div class="navbar-header">
+                            <div class="col-lg-8 col-md-12 col-sm-12 col-xs-3">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                        </div>
+
+
+                        <!-- top-nav -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li><a href="@Url.Action("Index","Home")" class="active">Home</a></li>
+                                <li><a href="@Url.Action("AboutUs","Home")">About</a></li>
+                                @*<li>
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="icons.html">Web Icons</a></li>
+                                            <li><a href="codes.html">Short Codes</a></li>
+                                        </ul>
+                                    </li>*@
+                                <li><a href="@Url.Action("Gallery","Home")">Gallery</a></li>
+                                <li><a href="@Url.Action("ContactUs","Home")">Contact Us</a></li>
+
+                            </ul>
+                            @Html.Partial("_LoginPartial")
+                            <div class="clearfix">
+                            </div>
+                        </div>
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //header -->
+<!-- //banner -->

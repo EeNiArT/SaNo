@@ -1,31 +1,324 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.title="Index";
+    Layout = null;
 }
+<head>
+    <title>Sanon Enterprise</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Steel Vats Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+    SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- Custom Theme files -->
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+    <link href="~/Content/css/bootstrap.css" type="text/css" rel="stylesheet" media="all" />
+    <link href="~/Content/css/style.css" type="text/css" rel="stylesheet" media="all" />
+    <link href="~/Content/css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="~/Content/css/flexslider.css" type="text/css" media="all" property="" />
+    <!-- //Custom Theme files -->
+    <!-- web-fonts -->
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+    <link href="//fonts.googleapis.com/css?family=Bigshot+One" rel="stylesheet">
+    <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- //web-fonts -->
+</head>
+<body> 
+    <div class="w3ls-banner">
+        <!-- header -->
+        <div class="header">
+            <div class="container">
+                <div class="header-top">
+                    <!-- header-top -->
+                    <div class="agile-hdleft nav navbar-nav navbar-left">
+                        <ul>
+                            <li><a href="mailto:m.bilal@leemutech.com"><i class="fa fa-envelope-o"></i>  m.bilal@leemutech.com</a></li>
+                            <li><i class="fa fa-phone"></i> +92 332 9687357 </li>
+                        </ul>
+                    </div>
+                    <div class="agile-hdmdl nav navbar-nav">
+                        <form action="#" method="post">
+                            <input type="search" name="Search" placeholder="Enter your search term..." id="search" required="">
+                            <button type="submit" class="btn btn-default" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="agileits-hdright nav navbar-nav navbar-right">
+                        <div class="social-icon">
+                            <a href="#" class="social-button twitter"><i class="fa fa-twitter"></i></a>
+                            <a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="#" class="social-button google"><i class="fa fa-google-plus"></i></a>
+                            <a href="#" class="social-button dribbble"><i class="fa fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="header-mdl agileits-logo">
+                    <!-- header-two -->                  
+                    <h1><a href="@Url.Action("Index","Home")"><span><sapn><img class="hidden-xs hidden-sm" src="~/Content/logo/SANON_1.png" /></sapn>SANON <lable style="font-size:medium">ENTERPRISE</lable></span></a></h1>
+                </div>
+                <div class="header-nav">
+                    <!-- header-three -->
+                    <nav class="navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <!-- top-nav -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li><a href="@Url.Action("Index","Home")" class="active">Home</a></li>
+                                <li><a href="@Url.Action("AboutUs","Home")">About</a></li>
+                                @*<li>
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="icons.html">Web Icons</a></li>
+                                        <li><a href="codes.html">Short Codes</a></li>
+                                    </ul>
+                                </li>*@
+                                <li><a href="@Url.Action("Gallery","Home")">Gallery</a></li>
+                                <li><a href="@Url.Action("ContactUs","Home")">Contact Us</a></li>
+                            </ul>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- //header -->
+        <!-- banner-text -->
+        <div class="banner-text agileinfo hidden-xs">
+            <div class="container">
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li>
+                            <div class="banner-w3lstext">
+                                <h2>Welcome</h2>
+                                <p>We see our customers as invited guests to a party, and we are the hosts. It’s our job every day to make every important aspect of the customer experience a little bit better.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="banner-w3lstext">
+                                <h3>Insight</h3>
+                                <p>Traditional corporations, particularly large-scale service and manufacturing businesses are organized for efficiency. Or consistency. But not joy. Joy comes from surprise and connection and humanity and transparency and new…If you fear special requests, if you staff with cogs, if you have to put it all in a manual, then the chances of amazing someone are really quite low.</p>
+                            </div>
+                        </li>
+                        @*<li>
+                            <div class="banner-w3lstext">
+                                <h3>Enimipsam</h3>
+                                <p>Mauris ex nulla, aliquam ornare facilisis nec convallis pulvinar a non nunc non leo sollicitudin, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida mauris non mi gravida, at sollicitudin odio efficitur. </p>
+                            </div>
+                        </li>*@
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- //banner-text -->
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    <!-- welcome -->
+    <div class="welcome agileinfo">
+        <div class="container">
+            <div class="col-md-6 welcome-w3left">
+                <h4>Sed tincidunt <br> velit fermentum eget</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt lorem sed velit fermentum lobortis, eget placerat mauris sed lectus tellus. Fusce eu semper lacus, sodales id elit a, feugiat porttitor nulla. Sed porta magna vitae nisl vulputate lacinia.</p>
+
+                <a href="single.html" class="button button-isi"><span>Read More</span><i class="icon glyphicon glyphicon-arrow-right"></i></a>
+            </div>
+            <div class="col-md-6 welcome-w3right">
+                <img src="~/Content/images/img1.jpg" alt="" />
+            </div>
+            <div class="clearfix"> </div>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+    <!-- //welcome -->
+    <!-- services -->
+    <div class="services agileinfo">
+        <div class="container">
+            <h3 class="agileits-title">Services</h3>
+            <div class="wthree-services-row">
+                <div class="col-md-6 services-grid">
+                    <div class="col-xs-3 services-grid-left">
+                        <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>
+                    </div>
+                    <div class="col-xs-9 services-grid-right">
+                        <h4>Etiam pharetra</h4>
+                        <p>
+                            Itaque earum rerum hic tenetur a sapiente delectus
+                            reiciendis maiores.
+                        </p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="col-md-6 services-grid">
+                    <div class="col-xs-3 services-grid-left">
+                        <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+                    </div>
+                    <div class="col-xs-9 services-grid-right">
+                        <h4>Pharetra erat</h4>
+                        <p>
+                            Itaque earum rerum hic tenetur a sapiente delectus
+                            reiciendis maiores.
+                        </p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="col-md-6 services-grid services-grid-bottom">
+                    <div class="col-xs-3 services-grid-left">
+                        <span class="glyphicon glyphicon-check" aria-hidden="true"></span>
+                    </div>
+                    <div class="col-xs-9 services-grid-right">
+                        <h4>Nuncam erat</h4>
+                        <p>
+                            Itaque earum rerum hic tenetur a sapiente delectus
+                            reiciendis maiores.
+                        </p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="col-md-6 services-grid services-grid-bottom">
+                    <div class="col-xs-3 services-grid-left">
+                        <span class="glyphicon glyphicon-floppy-saved" aria-hidden="true"></span>
+                    </div>
+                    <div class="col-xs-9 services-grid-right">
+                        <h4>Etiam nunc </h4>
+                        <p>
+                            Itaque earum rerum hic tenetur a sapiente delectus
+                            reiciendis maiores.
+                        </p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
     </div>
-</div>
+    <!-- //services -->
+    <!-- features -->
+    <div class="features welcome">
+        <div class="container">
+            <div class="wthree-features-row">
+                <div class="col-md-4 features-w3grid">
+                    <div class="col-xs-3 features-w3lleft">
+                        <i class="fa fa-credit-card" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-xs-9 features-w3lright">
+                        <p>Paid Amount</p>
+                        <h4>$500,000+</h4>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="col-md-4 features-w3grid">
+                    <div class="col-xs-3 features-w3lleft">
+                        <i class="fa fa-building-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-xs-9 features-w3lright">
+                        <p>Companies</p>
+                        <h4>8,500+</h4>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="col-md-4 features-w3grid">
+                    <div class="col-xs-3 features-w3lleft">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-xs-9 features-w3lright">
+                        <p>Customers</p>
+                        <h4>12,000+</h4>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+    <!-- //features -->
+    <!-- testimonials -->
+    <div class="testi-w3layouts">
+        <div class="flexslider flexslider1">
+            <ul class="slides">
+                <li>
+                    <div class="testi-img">
+                        <div class="container">
+                            <p class="w3ls-speech">Nam ultrices lacus vitae adipiscing aliquet, metus ipsum imperdiet libero, vitae dignissim sapientristique Donec libero dui, scelerisque ac augue id, ullamcorper elit,diam ac nibh convallis. </p>
+                            <h4 class="agileits-rs">Ullam Firose sed</h4>
+                            <h6>Donec libero duisint </h6>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="testi-img testi-img2">
+                        <div class="container">
+                            <p class="w3ls-speech">Vitae adipiscing aliquet namultrices lacus , metus ipsum imperdiet libero, vitae dignissim sapientristique Donec libero dui, scelerisque ac augue id, ullamcorper elit,diam ac nibh convallis. </p>
+                            <h4 class="agileits-rs">Fugiat nulla sint </h4>
+                            <h6>Donec libero duisint </h6>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+    <!-- //testimonials -->
+     
+    @Html.Partial("~/Views/Shared/_Footer.cshtml")
+
+    <!-- js -->
+    <script src="~/Content/js/jquery-2.2.3.min.js"></script>
+    <!-- FlexSlider -->
+    <script defer src="~/Content/js/jquery.flexslider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function () {
+            $('.flexslider').flexslider({
+                animation: "slide",
+                start: function (slider) {
+                    $('body').removeClass('loading');
+                }
+            });
+        });
+    </script>
+    <!-- End-slider-script -->
+    <script src="~Content/js/SmoothScroll.min.js"></script>
+    <!-- start-smooth-scrolling -->
+    <script type="text/javascript" src="~/Content/js/move-top.js"></script>
+    <script type="text/javascript" src="~/Content/js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+            });
+        });
+    </script>
+    <!-- //end-smooth-scrolling -->
+    <!-- smooth-scrolling-of-move-up -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /*
+            var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear'
+            };
+            */
+
+            $().UItoTop({ easingType: 'easeOutQuart' });
+
+        });
+    </script>
+    <!-- //smooth-scrolling-of-move-up -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="~/Content/js/bootstrap.js"></script>
+   @* @RenderSection("Scripts", required: false)*@
+
+
+    
+    
+</body>
