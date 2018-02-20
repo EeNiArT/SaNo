@@ -28,16 +28,8 @@ namespace Sanon.Controllers
         }
         public ActionResult Gallery()
         {
+
             return View();
         }
-        public ActionResult AboutUS()
-        {
-            return View();
-        }
-        public ActionResult ContactUs()
-        {
-            return View();
-        }
-        
     }
 }
