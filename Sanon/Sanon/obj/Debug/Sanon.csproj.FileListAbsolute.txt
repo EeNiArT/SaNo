@@ -81,7 +81,6 @@ c:\users\dell\documents\visual studio 2015\Projects\Sanon\Sanon\obj\Debug\Sanon.
 c:\users\dell\documents\visual studio 2015\Projects\Sanon\Sanon\obj\Debug\Sanon.dll
 c:\users\dell\documents\visual studio 2015\Projects\Sanon\Sanon\obj\Debug\Sanon.pdb
 <<<<<<< HEAD
-<<<<<<< HEAD
 E:\SananEnterprise\sannon1\SaNo\Sanon\Sanon\bin\ApplicationInsights.config
 E:\SananEnterprise\sannon1\SaNo\Sanon\Sanon\bin\roslyn\csc.exe
 E:\SananEnterprise\sannon1\SaNo\Sanon\Sanon\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -166,7 +165,6 @@ E:\SananEnterprise\sannon1\SaNo\Sanon\Sanon\obj\Debug\Sanon.csproj.CoreCompileIn
 E:\SananEnterprise\sannon1\SaNo\Sanon\Sanon\obj\Debug\Sanon.dll
 E:\SananEnterprise\sannon1\SaNo\Sanon\Sanon\obj\Debug\Sanon.pdb
 =======
-=======
 >>>>>>> ae7627eb9ab86de96e4a46fd4cbb30f16a8cf2db
 E:\Leemutech\Sanon2\Project1\Sanon\Sanon\bin\ApplicationInsights.config
 E:\Leemutech\Sanon2\Project1\Sanon\Sanon\bin\roslyn\csc.exe
@@ -250,7 +248,3 @@ E:\Leemutech\Sanon2\Project1\Sanon\Sanon\bin\Microsoft.Owin.Security.MicrosoftAc
 E:\Leemutech\Sanon2\Project1\Sanon\Sanon\obj\Debug\Sanon.csprojResolveAssemblyReference.cache
 E:\Leemutech\Sanon2\Project1\Sanon\Sanon\obj\Debug\Sanon.dll
 E:\Leemutech\Sanon2\Project1\Sanon\Sanon\obj\Debug\Sanon.pdb
-<<<<<<< HEAD
->>>>>>> ae7627eb9ab86de96e4a46fd4cbb30f16a8cf2db
-=======
->>>>>>> ae7627eb9ab86de96e4a46fd4cbb30f16a8cf2db

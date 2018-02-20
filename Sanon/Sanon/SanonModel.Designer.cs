@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'c:\users\dell\documents\visual studio 2015\Projects\Sanon\Sanon\SanonModel.edmx'. 
+﻿// T4 code generation is enabled for model 'E:\SananEnterprise\sannon1\SaNo\Sanon\Sanon\SanonModel.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.
