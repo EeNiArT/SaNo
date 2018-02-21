@@ -30,9 +30,9 @@
                 <div class="clearfix"> </div>
             </div>
             <div class="row">
-                <div class="agileits-logo col-lg-4 col-md-12 col-sm-12 col-xs-9">
+                <div class="agileits-logo col-lg-3 col-md-12 col-sm-12 col-xs-9">
                     <!-- header-two -->
-                    <h1 class="h11" style="line-height:unset;"><a href="index.html"><span>SANON <span><lable style="font-size:small">ENTERPRISE</lable></span></span></a></h1>
+                    <h1 class="h11" style="line-height:unset;"><a href="index.html"><span>SANON <span><lable style="font-size:12px;">ENTERPRISE</lable></span></span></a></h1>
                 </div>
                 <div class="header-nav">
                     <!-- header-three -->
@@ -63,9 +63,8 @@
                                     </li>*@
                                 <li><a href="@Url.Action("Gallery","Home")">Gallery</a></li>
                                 <li><a href="@Url.Action("ContactUs","Home")">Contact Us</a></li>
-
+                                @Html.Partial("_LoginPartial")
                             </ul>
-                            @Html.Partial("_LoginPartial")
                             <div class="clearfix">
                             </div>
                         </div>
