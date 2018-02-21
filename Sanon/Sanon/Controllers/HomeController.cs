@@ -28,7 +28,15 @@ namespace Sanon.Controllers
         }
         public ActionResult Gallery()
         {
-
+            ViewBag.title = "This is title";
+            return View();
+        }
+        public ActionResult AboutUS()
+        {
+            return View();
+        }
+        public ActionResult ContactUs()
+        {
             return View();
         }
     }
