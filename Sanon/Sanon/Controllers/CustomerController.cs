@@ -9,7 +9,11 @@ namespace Sanon.Controllers
     public class CustomerController : Controller
     {
         // GET: Customer
-        public ActionResult Customer()
+        public ActionResult Tables()
+        {
+            return View();
+        }
+        public ActionResult Products()
         {
             return View();
         }

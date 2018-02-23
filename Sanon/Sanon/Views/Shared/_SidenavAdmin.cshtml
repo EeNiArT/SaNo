@@ -27,17 +27,33 @@
         <!-- sidebar menu: : style can be found in sidebar.less -->
         <ul class="sidebar-menu">
             <li class="header">MAIN NAVIGATION</li>
-            <li class="active treeview">
-                <a href="#">
+            <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "Dashboard" ? "active" : "") treeview">
+                <a href="@Url.Action("Dashboard","Admin")">
                     <i class="fa fa-dashboard"></i> <span>Dashboard</span>
                     <span class="pull-right-container">
-                        <i class="fa fa-angle-left pull-right"></i>
+                       @* <i class="fa fa-angle-left pull-right"></i>*@
                     </span>
                 </a>
-                <ul class="treeview-menu">
-                    <li class="active"><a href="@Url.Action("Index","Admin")"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
+               @*<ul class="treeview-menu">
+                    <li class="active"><a href="@Url.Action("Dashboard","Admin")"><i class="fa fa-circle-o"></i> Dashboard</a></li>
                     <li><a href="@Url.Action("Index2", "Admin")"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
-                </ul>
+                </ul>*@
+            </li>
+            <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "Tables" ? "active" : "") treeview">
+                <a href="@Url.Action("Tables","Customer")">
+                    <i class="fa fa-address-book-o"></i> <span>Customers</span>
+                    <span class="pull-right-container">
+                        @*<small class="label pull-right bg-green">new</small>*@
+                    </span>
+                </a>
+            </li>
+            <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "Products" ? "active" : "") treeview">
+                <a href="@Url.Action("Products","Customer")">
+                    <i class="fa fa-th-list"></i> <span>Products</span>
+                    <span class="pull-right-container">
+                       @* <small class="label pull-right bg-green">new</small>*@
+                    </span>
+                </a>
             </li>
             <li class="treeview">
                 <a href="#">
@@ -201,3 +217,4 @@
     </section>
     <!-- /.sidebar -->
 </aside>
+
