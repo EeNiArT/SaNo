@@ -1433,7 +1433,8 @@
     <Content Include="Views\Shared\_Header.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Admin\Dashboard.cshtml" />
-    <Content Include="Views\Customer\Customer.cshtml" />
+    <Content Include="Views\Customer\Tables.cshtml" />
+    <Content Include="Views\Customer\Products.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
